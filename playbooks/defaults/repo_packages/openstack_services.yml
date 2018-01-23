@@ -89,8 +89,8 @@ heat_git_project_group: heat_all
 
 
 ## Horizon service
-horizon_git_repo: https://git.openstack.org/openstack/horizon
-horizon_git_install_branch: 246ff9f81248a00a434e66d18fad70519ba811cc # HEAD of "stable/pike" as of 10.11.2017
+horizon_git_repo: https://github.com/b3lab/horizon
+horizon_git_install_branch: safir/pike
 horizon_git_project_group: horizon_all
 
 ## Horizon Ironic dashboard plugin
