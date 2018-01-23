@@ -88,8 +88,8 @@
   version: 4d1efae631026631fb2af4f43a9fe8ca210d643e
 - name: os_horizon
   scm: git
-  src: https://git.openstack.org/openstack/openstack-ansible-os_horizon
-  version: f69594c93fa27a94b665b24c9196347489fec8ff
+  src: https://github.com/b3lab/openstack-ansible-os_horizon
+  version: safir/pike
 - name: os_ironic
   scm: git
   src: https://git.openstack.org/openstack/openstack-ansible-os_ironic
