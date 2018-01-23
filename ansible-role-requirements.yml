@@ -202,3 +202,7 @@
   scm: git
   src: https://github.com/ceph/ansible-ceph-osd
   version: v3.0.8
+- name: os_cloudkitty
+  scm: git
+  src: https://github.com/b3lab/openstack-ansible-os_cloudkitty.git
+  version: stable/pike
