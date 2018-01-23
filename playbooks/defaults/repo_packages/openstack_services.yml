@@ -36,7 +36,7 @@ requirements_git_install_branch: 732861162db604622ac23ad65c070e3f69d0b44e # HEAD
 
 ## Aodh service
 aodh_git_repo: https://git.openstack.org/openstack/aodh
-aodh_git_install_branch: ed3ce41fa0ae0173601b683748265e502b84553b # HEAD of "stable/pike" as of 10.11.2017
+aodh_git_install_branch: 5.0.0
 aodh_git_project_group: aodh_all
 
 
@@ -48,7 +48,7 @@ barbican_git_project_group: barbican_all
 
 ## Ceilometer service
 ceilometer_git_repo: https://git.openstack.org/openstack/ceilometer
-ceilometer_git_install_branch: 8f10d547a4c4eeac0af2a5c833881dbe48c26464 # HEAD of "stable/pike" as of 10.11.2017
+ceilometer_git_install_branch: 9.0.4
 ceilometer_git_project_group: ceilometer_all
 
 
@@ -100,8 +100,13 @@ ironic_dashboard_git_project_group: horizon_all
 
 ## Horizon Magnum dashboard plugin
 magnum_dashboard_git_repo: https://git.openstack.org/openstack/magnum-ui
-magnum_dashboard_git_install_branch: 0b9fc50aada1a3e214acaad1204b48c96a549e5f # HEAD of "stable/pike" as of 10.11.2017
+magnum_dashboard_git_install_branch: stable/pike
 magnum_dashboard_git_project_group: horizon_all
+
+## Horizon Safir Monitor dashboard plugin
+safir_monitor_dashboard_git_repo: https://github.com/b3lab/safir_monitor_dashboard.git
+safir_monitor_dashboard_git_install_branch: stable/pike
+safir_monitor_dashboard_git_project_group: horizon_all
 
 ## Horizon LBaaS dashboard plugin
 neutron_lbaas_dashboard_git_repo: https://git.openstack.org/openstack/neutron-lbaas-dashboard
@@ -110,7 +115,7 @@ neutron_lbaas_dashboard_git_project_group: horizon_all
 
 ## Horizon Sahara dashboard plugin
 sahara_dashboard_git_repo: https://git.openstack.org/openstack/sahara-dashboard
-sahara_dashboard_git_install_branch: 00c241d97bd3a116513580cfe8006480723d7c17 # HEAD of "stable/pike" as of 10.11.2017
+sahara_dashboard_git_install_branch: stable/pike
 sahara_dashboard_git_project_group: horizon_all
 
 
