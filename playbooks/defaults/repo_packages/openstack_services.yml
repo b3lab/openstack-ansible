@@ -99,7 +99,7 @@ ironic_dashboard_git_install_branch: e2cba8ed8745b8ffcaa60d26ab69fd93f61582ad # 
 ironic_dashboard_git_project_group: horizon_all
 
 ## Horizon Magnum dashboard plugin
-magnum_dashboard_git_repo: https://git.openstack.org/openstack/magnum-ui
+magnum_dashboard_git_repo: https://github.com/b3lab/magnum-ui
 magnum_dashboard_git_install_branch: stable/pike
 magnum_dashboard_git_project_group: horizon_all
 
@@ -114,7 +114,7 @@ neutron_lbaas_dashboard_git_install_branch: a5a05a27e7cab99dc379774f1d01c0076818
 neutron_lbaas_dashboard_git_project_group: horizon_all
 
 ## Horizon Sahara dashboard plugin
-sahara_dashboard_git_repo: https://git.openstack.org/openstack/sahara-dashboard
+sahara_dashboard_git_repo: https://github.com/b3lab/sahara-dashboard
 sahara_dashboard_git_install_branch: stable/pike
 sahara_dashboard_git_project_group: horizon_all
 
@@ -192,8 +192,8 @@ ironic_git_install_branch: c163e78629eac4e696ae62dc9a29a0fc77ca463f # HEAD of "s
 ironic_git_project_group: ironic_all
 
 ## Magnum service
-magnum_git_repo: https://git.openstack.org/openstack/magnum
-magnum_git_install_branch: 839884593e6f6dabaebe401b013465c836fefc84 # HEAD of "stable/pike" as of 10.11.2017
+magnum_git_repo: https://github.com/b3lab/magnum
+magnum_git_install_branch: safir/pike
 magnum_git_project_group: magnum_all
 
 ## Trove service
