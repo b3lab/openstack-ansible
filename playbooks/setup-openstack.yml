@@ -21,6 +21,7 @@
 - include: os-neutron-install.yml
 - include: os-heat-install.yml
 - include: os-horizon-install.yml
+- include: os-redis-install.yml
 - include: os-ceilometer-install.yml
 - include: os-aodh-install.yml
 - include: os-designate-install.yml
